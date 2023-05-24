@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    height: 8500px;
+    height: 12000px;
     font-family: Ubuntu, serif;
     background-color: rgb(19, 18, 18);
     color: white;
@@ -119,10 +119,23 @@ body{
     flex-direction: column;
     gap: 20rem;
 }
+.main__container--caption{
+    text-align: center;
+    opacity: 0.75;
+}
 .main__container--content img{
     max-width: 900px;
     max-height: 500px;
     border-radius: 500px;
+}
+.main__container--content div{
+    max-width: 900px;
+    max-height: 500px;
+    min-width: 400px;
+    border-radius: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 .main__container--main-header{
     font-size: 64px;
@@ -173,6 +186,11 @@ body{
     font-size: 24px;
     display: flex;
 }
+.main-appearance__content-sub-caption{
+    font-size: 16px;
+    max-width: 300px;
+    text-align: left;
+}
 .main-appearance__grid{
     display: flex;
     gap: 4rem;
@@ -212,6 +230,9 @@ body{
     max-height: 800px;
     border-radius: 25px;
 }
+.main-location--caption{
+    font-size: 18px;
+}
 .main-location__content img:hover{
     opacity: 0.5;
 }
@@ -242,9 +263,9 @@ body{
 .main-specie__content header{
     font-size: 64px;
     padding-top: 5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
-.main-specie__content p{
+.main-specie__content{
     padding-top: 1rem;
     padding-bottom: 1rem;
     max-width: 1000px;
@@ -252,8 +273,8 @@ body{
     line-height: 3vh;
 }
 .main-specie__content img{
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 700px;
+    max-height: 700px;
     border-radius: 25px;
 }
 .main-specie__content{
